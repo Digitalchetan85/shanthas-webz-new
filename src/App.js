@@ -10,7 +10,6 @@ import LogoDesigns from './Components/DigitalSolutions/LogoDesigns';
 import WebPageDesign from './Components/DigitalSolutions/WebPageDesign';
 import LandingPageDesign from './Components/DigitalSolutions/LandingPageDesign';
 import BrochureDesign from './Components/DigitalSolutions/BrochureDesign';
-import WebsiteDesign from './Components/WebsiteSolutions/WebsiteDesign';
 import WebDevelopment from './Components/WebsiteSolutions/WebDevelopment';
 import LandingPageDevelopment from './Components/WebsiteSolutions/LandingPageDevelopment';
 import ECommerce from './Components/WebsiteSolutions/ECommerce';
