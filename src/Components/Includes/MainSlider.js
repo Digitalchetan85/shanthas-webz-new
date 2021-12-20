@@ -5,11 +5,12 @@ import Slide2 from "../images/slider/Slide2.png";
 import Slide3 from "../images/slider/Slide3.png";
 
 const MainSlider = () => {
-    const slides = [
-        { id: 1, src: Slide1, alt: "" },
-        { id: 2, src: Slide2, alt: "" },
-        { id: 3, src: Slide3, alt: "" },
-      ];
+  const slides = [
+    { id: 1, src: Slide1, alt: "" },
+    { id: 2, src: Slide2, alt: "" },
+    { id: 3, src: Slide3, alt: "" },
+  ];
+
   return (
     <div>
       <Carousel>
