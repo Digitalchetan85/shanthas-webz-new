@@ -1,0 +1,85 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary":    #C92430,
+  "secondary":  #000000,
+  "dark":       #131921,
+  "success":    #198754,
+  "info":       #0DCAF0,
+  "warning":    #a7c227,
+  "danger":     #DC3545,
+  "light":      #F8F9FA,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #C92430;
+$secondary-color: #000000;
+$ternary-color: #F8F9FA;
+$white-color: #ffffff;
+
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  
+
+
+ }
+
+ #navbar {
+  .nav-link {
+    color: $white-color;
+    background-color: $primary-color;
+    padding-left: 15px;
+    padding-right: 15px;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+  .dropdown-menu {
+    background-color: $primary-color;
+  }
+  .dropdown-item {
+    color: $white-color;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+ }
+
+ #footer {
+   a {
+     color: $secondary-color;
+     text-decoration: none;
+     &:hover {
+       color: $primary-color;
+      }
+   }
+ }
