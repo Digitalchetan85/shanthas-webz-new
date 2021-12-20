@@ -14,41 +14,41 @@ const TopMenubar = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about-us">About Us</Nav.Link>
               <NavDropdown title="Digital Solutions" id="digital-solutions-dropdown">
-                <NavDropdown.Item href="/creatives">Creatives</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-solutions/creatives">Creatives</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/logo-designs">Logo Designs</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-solutions/logo-designs">Logo Designs</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/web-page-design">Web Page Design</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-solutions/web-page-design">Web Page Design</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/landing-page-design">Landing Page Design</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-solutions/landing-page-design">Landing Page Design</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/brochure-design">Brochure Design</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-solutions/brochure-design">Brochure Design</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Website Solutions" id="wesite-solutions-dropdown">
-                <NavDropdown.Item href="/website-development">Website Development</NavDropdown.Item>
+                <NavDropdown.Item href="/website-solutions/website-development">Website Development</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/landing-page-development">Landing Page Development</NavDropdown.Item>
+                <NavDropdown.Item href="/website-solutions/landing-page-development">Landing Page Development</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/e-commerce-website-development">E-Commerce Website Development</NavDropdown.Item>
+                <NavDropdown.Item href="/website-solutions/e-commerce-website-development">E-Commerce Website Development</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/shopify">Shopify</NavDropdown.Item>
+                <NavDropdown.Item href="/website-solutions/shopify">Shopify</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Digital Marketing Solutions" id="digital-marketing-solutions-dropdown">
-                <NavDropdown.Item href="/search-engine-optimiztion">Search Engine Optmization</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/search-engine-optimization">Search Engine Optmization</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/search-engine-marketing">Search Engine Marketing</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/search-engine-marketing">Search Engine Marketing</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/social-media-marketing">Social Media Marketing</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/social-media-marketing">Social Media Marketing</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/google-adwords">Google Adwords</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/pay-per-click">Pay Per Click</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/content-marketing">Content Marketing</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/content-marketing">Content Marketing</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/email-marketing">Email Marketing</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/email-marketing">Email Marketing</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/whats-app-sms-marketing">Whats App / SMS Marketing</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/whats-app-sms-marketing">Whats App / SMS Marketing</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/app-promotions">App Promotions</NavDropdown.Item>
+                <NavDropdown.Item href="/digital-marketing-solutions/app-promotions">App Promotions</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/blog">Blog</Nav.Link>
               <Nav.Link href="/contact-us">Contact Us</Nav.Link>
