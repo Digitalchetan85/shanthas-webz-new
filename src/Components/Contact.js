@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Col, Container, Row, Button, Image } from "react-bootstrap";
-import { Formik, Form, Field, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
-import axios from 'axios'; 
-import contactImage from "../Components/images/slider/Slide1.png"
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
+import contactImage from "../Components/images/slider/Slide1.png";
 
 const Contact = () => {
   const [formStatus, setformStatus] = useState("");
@@ -51,7 +51,6 @@ const Contact = () => {
         setformStatus(error.data);
       });
   };
-
 
   return (
     <main>
@@ -125,7 +124,7 @@ const Contact = () => {
         </Container>
       </section>
 
-      <section id="contact-2" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      <section id="contact-2" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md={6} className="align-self-center">
@@ -137,8 +136,8 @@ const Contact = () => {
                 validationSchema={validationSchema}
                 onSubmit={onSubmit}
               >
-                <Form className="p-3 shadow-sm bg-light">
-                    <h2 className="text-primary"> Get in Touch with us</h2>
+                <Form className="p-3 shadow-sm bg-white rounded">
+                  <h2 className="text-primary"> Get in Touch with us</h2>
                   <Row className="mb-3 rounded">
                     <Col md={12}>
                       <div className="mb-3">
