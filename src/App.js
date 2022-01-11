@@ -14,14 +14,14 @@ import WebDevelopment from './Components/WebsiteSolutions/WebDevelopment';
 import LandingPageDevelopment from './Components/WebsiteSolutions/LandingPageDevelopment';
 import ECommerce from './Components/WebsiteSolutions/ECommerce';
 import Shopify from './Components/WebsiteSolutions/Shopify';
-import SearchEngineOptimization from './Components/DigitalMarketingServices/SearchEngineOptimization';
-import SearchEngineMarketing from './Components/DigitalMarketingServices/SearchEngineMarketing';
-import SocialMediaMarketting from './Components/DigitalMarketingServices/SocialMediaMarketting';
-import PayPerClick from './Components/DigitalMarketingServices/PayPerClick';
-import ContentMarketing from './Components/DigitalMarketingServices/ContentMarketing';
-import EmailMarketing from './Components/DigitalMarketingServices/EmailMarketing';
-import AppPromotions from './Components/DigitalMarketingServices/AppPromotions';
-import WhatsApp from './Components/DigitalMarketingServices/WhatsApp';
+import SearchEngineOptimization from './Components/DigitalMarketingSolutions/SearchEngineOptimization';
+import SearchEngineMarketing from './Components/DigitalMarketingSolutions/SearchEngineMarketing';
+import SocialMediaMarketting from './Components/DigitalMarketingSolutions/SocialMediaMarketting';
+import PayPerClick from './Components/DigitalMarketingSolutions/PayPerClick';
+import ContentMarketing from './Components/DigitalMarketingSolutions/ContentMarketing';
+import EmailMarketing from './Components/DigitalMarketingSolutions/EmailMarketing';
+import AppPromotions from './Components/DigitalMarketingSolutions/AppPromotions';
+import WhatsApp from './Components/DigitalMarketingSolutions/WhatsApp';
 
 function App() {
   return (
