@@ -32,57 +32,76 @@ const Footer = () => {
           </Col>
           <Col md={3}>
             <div className="">
-              <h3 className="text-primary pt-2 pb-2">Quick Links</h3>
+              
+              <h4 className="text-primary pt-2 pb-2"><a href="/digital-solutions">Design Solutions </a></h4>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/digital-solutions/creatives">Creatives</a>
                 </li>
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <a href="/digital-solutions/logo-designs">Logo Designs</a>
                 </li>
                 <li>
-                  <a href="/blog">Blog</a>
+                  <a href="/digital-solutions/web-page-designs">Web Page Designs</a>
                 </li>
                 <li>
-                  <a href="/contact-us">Contact Us</a>
+                  <a href="/digital-solutions/landing-page">Landing Page</a>
+                </li>
+                <li>
+                  <a href="/digital-solutions/brochure-design">Brochure Design</a>
+                </li>
+                
+              </ul>
+            </div>
+          </Col>
+          <Col md={3}>
+            <div className="">
+            <h4 className="text-primary pt-2 pb-2"><a href="/website-solutions">Website Solutions </a>
+            </h4>
+              <ul>
+                <li>
+                  <a href="/website-solutions/website-development">Website Development</a>
+                </li>
+                <li>
+                  <a href="/website-solutions/lannding-page-development">Landing Page Development</a>
+                </li>
+                <li>
+                  <a href="/website-solutions/e-commerce">E-Commerce Development</a>
+                </li>
+                <li>
+                  <a href="/website-solutions/shopify">Shopify</a>
                 </li>
               </ul>
             </div>
           </Col>
           <Col md={3}>
             <div className="">
-              <h3 className="text-primary pt-2 pb-2">Our Services</h3>
+            <h4 className="text-primary pt-2 pb-2"><a href="digital-marketing-solutions">Digital Marketing Solutions </a>
+            </h4>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="digital-marketing-solutions/search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <a href="digital-marketing-solutions/search-engine-marketing">Search Engine Marketing</a>
                 </li>
                 <li>
-                  <a href="/blog">Blog</a>
+                  <a href="digital-marketing-solutions/social-media-marketing">Social Media Marketing</a>
                 </li>
                 <li>
-                  <a href="/contact-us">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col md={3}>
-            <div className="">
-              <h3 className="text-primary pt-2 pb-2">Our Services</h3>
-              <ul>
-                <li>
-                  <a href="/">Home</a>
+                  <a href="digital-marketing-solutions/pay-per-click">Pay Per Click </a>
                 </li>
                 <li>
-                  <a href="/about-us">About Us</a>
+                  <a href="digital-marketing-solutions/content-marketing">Content Marketing </a>
                 </li>
                 <li>
-                  <a href="/blog">Blog</a>
+                  <a href="digital-marketing-solutions/email-marketing">E-Mail Marketing </a>
                 </li>
                 <li>
-                  <a href="/contact-us">Contact Us</a>
+                  <a href="digital-marketing-solutions/whats-app">WhatsApp/ SMS</a>
+                </li>
+                <li>
+                  <a href="digital-marketing-solutions/app-promotions">App Promotions</a>
                 </li>
               </ul>
             </div>

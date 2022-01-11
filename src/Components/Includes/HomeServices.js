@@ -11,21 +11,21 @@ const HomeServices = () => {
           id: 1,
           title: "Design Solutions",
           image: cardimage,
-          desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          desc: "Graphic design is a field that involves the creation of visual information with the purpose of conveying a message. We offer fresh and innovative design solutions for both companies and individuals.",
           link: "/digital-solutions",
         },
         {
           id: 2,
           title: "Website Solutions",
           image: cardimage,
-          desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          desc: "Using cutting-edge technology, our team of skilled web developers and seasoned digital marketing professionals develop dynamic websites that engage their target audiences and promote them to expand their reach and increase sales.",
           link: "/website-solutions",
         },
         {
           id: 3,
           title: "Digital Marketing",
           image: cardimage,
-          desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          desc: "We offer solutions to your biggest internet marketing issues and challenges in the digital age. It includes SEO, SEM, SMM, PPC, Content Marketing, E-Mail Marketing, Whatsapp/SMS Marketing, and  App Promotions.",
           link: "/digital-marketing-solutions",
         },
       ];
@@ -47,7 +47,8 @@ const HomeServices = () => {
                     <Card.Text>
                       {service.desc}
                     </Card.Text>
-                    <Button variant="primary" as={Link} to={service.link}>Go somewhere</Button>
+                    <Button variant="primary" as={Link} to={service.link}>Read More</Button>
+                    <a className="float-end btn btn-outline-primary" href="/contact-us">Contact</a>
                   </Card.Body>
                 </Card>
               </Col>

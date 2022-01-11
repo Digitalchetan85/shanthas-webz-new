@@ -9,7 +9,7 @@ const BrochureDesign = () => {
         id="page-top-header"
       >
         <TopHeaderPage
-          name="Btouchure Designs"
+          name="Brouchure Designs"
           link="/digital-solutions"
           linkingPageName="Digtial Solutions"
         />
