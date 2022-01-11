@@ -12,21 +12,21 @@ const HomeServices = () => {
           title: "Design Solutions",
           image: cardimage,
           desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          link: "",
+          link: "/digital-solutions",
         },
         {
           id: 2,
           title: "Website Solutions",
           image: cardimage,
           desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          link: "",
+          link: "/website-solutions",
         },
         {
           id: 3,
           title: "Digital Marketing",
           image: cardimage,
           desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          link: "",
+          link: "/digital-marketing-solutions",
         },
       ];
     return (

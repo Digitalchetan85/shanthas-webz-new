@@ -22,6 +22,9 @@ import ContentMarketing from './Components/DigitalMarketingSolutions/ContentMark
 import EmailMarketing from './Components/DigitalMarketingSolutions/EmailMarketing';
 import AppPromotions from './Components/DigitalMarketingSolutions/AppPromotions';
 import WhatsApp from './Components/DigitalMarketingSolutions/WhatsApp';
+import DigitalSolutions from './Components/DigitalSolutions/DigitalSolutions';
+import DigitalMarketing from './Components/DigitalMarketingSolutions/DigitalMarketing';
+import WebsiteSolutions from './Components/WebsiteSolutions/WebsiteSolutions';
 
 function App() {
   return (
@@ -32,6 +35,16 @@ function App() {
           <Route path="/" exact component={Home}></Route>
           <Route path="/about-us" component={About}></Route>
           <Route path="/contact-us" component={Contact}></Route>
+          <Route
+            path="/digital-solutions"
+            component={DigitalSolutions}
+          ></Route> <Route
+          path="/digital-marketing-solutions"
+          component={DigitalMarketing}
+        ></Route> <Route
+        path="/website-solutions"
+        component={WebsiteSolutions}
+      ></Route>
           <Route
             path="/digital-solutions/creatives"
             component={Creative}
