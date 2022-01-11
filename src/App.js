@@ -37,13 +37,13 @@ function App() {
           <Route path="/contact-us" component={Contact}></Route>
           <Route
             path="/digital-solutions"
-            component={DigitalSolutions}
+            exact component={DigitalSolutions}
           ></Route> <Route
           path="/digital-marketing-solutions"
-          component={DigitalMarketing}
+          exact component={DigitalMarketing}
         ></Route> <Route
         path="/website-solutions"
-        component={WebsiteSolutions}
+        exact component={WebsiteSolutions}
       ></Route>
           <Route
             path="/digital-solutions/creatives"
