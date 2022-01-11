@@ -49,7 +49,7 @@ const HomeDesignSolution = () => {
           <Row className="justify-content-center">
             {services.map((service) => (
               <Col md={4} key={service.id}>
-                <Card className="mt-3 mb-3 shadow">
+                <Card className="mt-3 mb-3 shadow-sm">
                   <Card.Img
                     variant="top"
                     src={service.image}

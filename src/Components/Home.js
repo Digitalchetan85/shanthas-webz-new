@@ -9,23 +9,21 @@ const Home = () => {
   
 
   return (
-    <div>
+    <main>
       <MainSlider />
-      <div id="services" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      <section id="services" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <HomeServices />
-      </div>
-      <div id="design-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
+      </section>
+      <section id="design-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <HomeDesignSolution />
-      </div>
-      <div id="website-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      </section>
+      <section id="website-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <HomeWebsiteSolutions />      
-      </div>
-      <div id="digital-marketing-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      </section>
+      <section id="digital-marketing-solutions" className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light">
         <HomeDigitalMarketingSolutions />      
-      </div>
-  
-      
-    </div>
+      </section>
+    </main>
   );
 };
 

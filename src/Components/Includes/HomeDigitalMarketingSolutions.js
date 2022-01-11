@@ -67,7 +67,7 @@ const HomeDigitalMarketingSolutions = () => {
     return (
         <Container>
           <h2 className="text-center pt-2 pb-2 text-primary">Digital Marketing Solutions</h2>
-          <Row>
+          <Row className="justify-content-center">
             {services.map((service) => (
               <Col md={4} key={service.id}>
                 <Card className="mt-3 mb-3">

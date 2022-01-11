@@ -4,7 +4,7 @@ import FooterLogo from "../images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-light pt-3 pb-3 pt-md-5 pb-md-5" id="footer">
+    <div className="bg-dark pt-3 pb-3 pt-md-5 pb-md-5" id="footer">
       <Container>
         <Row>
           <Col md={3}>
@@ -12,9 +12,9 @@ const Footer = () => {
               <Image
                 src={FooterLogo}
                 alt="Shanths Webz Logo"
-                className="img-fluid"
+                className="img-fluid bg-white"
               />
-              <h3 className="text-uppercase text-primary pt-2 pb-2">Shanths Webz</h3>
+              <h3 className="text-uppercase text-primary pt-2 pb-2">Shanthas Webz</h3>
 
               <address>
                 <p>
@@ -88,6 +88,18 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+          <div className="border-top border-light">
+            <Row>
+              <Col md={12}>
+                <p className="text-center text-light m-0 pt-2 pb-1">
+                  Copy Rights reserved. Developed by 
+                  <a href="https://shanthaswebz.com" target="_blank" rel="noopener noreferrer">
+                    Shanthas Webz.
+                  </a>
+                </p>
+              </Col>
+            </Row>
+          </div>
       </Container>
     </div>
   );

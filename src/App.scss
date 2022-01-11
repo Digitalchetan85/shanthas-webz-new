@@ -46,10 +46,29 @@ $white-color: #ffffff;
 
  #footer {
    a {
-     color: $secondary-color;
+     color: $white-color;
      text-decoration: none;
      &:hover {
        color: $primary-color;
       }
+   }
+   p {
+     color: $white-color;
+   }
+ }
+
+ #page-top-header {
+   .custom {
+     text-decoration: none;
+     color: $white-color;
+     &:hover {
+       color: $secondary-color;
+     }
+   }
+ }
+
+ #about-1 {
+   p {
+     text-align: justify;
    }
  }
