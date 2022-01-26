@@ -39,9 +39,6 @@ function App() {
             path="/digital-solutions"
             exact component={DigitalSolutions}
           ></Route> <Route
-          path="/digital-marketing-solutions"
-          exact component={DigitalMarketing}
-        ></Route> <Route
         path="/website-solutions"
         exact component={WebsiteSolutions}
       ></Route>
@@ -80,7 +77,10 @@ function App() {
           <Route
             path="/website-solutions/shopify"
             component={Shopify}
-          ></Route>
+          ></Route><Route
+          path="/digital-marketing-solutions/digital-marketing"
+          exact component={DigitalMarketing}
+        ></Route> 
           <Route
             path="/digital-marketing-solutions/search-engine-optimization"
             component={SearchEngineOptimization}

@@ -62,6 +62,10 @@ const TopMenubar = () => {
               title="Digital Marketing Solutions"
               id="digital-marketing-solutions-dropdown"
             >
+            <NavDropdown.Item href="/digital-marketing-solutions/digital-marketing">
+              Digital Marketing
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
               <NavDropdown.Item href="/digital-marketing-solutions/search-engine-optimization">
                 Search Engine Optmization
               </NavDropdown.Item>
