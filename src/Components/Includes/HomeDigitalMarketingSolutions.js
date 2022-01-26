@@ -60,7 +60,7 @@ const HomeDigitalMarketingSolutions = () => {
             id: 8,
             title: "App Promotions",
             image: cardimage,
-            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            desc: "Mobile app marketing is a way of promoting an app to its target customers while also increasing the engagement and retention of existing app users. The task of promoting your mobile application to a prominent position amid the thousands of other similar applications is challenging.",
             link: "/digital-marketing-solutions/app-promotions",
           },
       ];

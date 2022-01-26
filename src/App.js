@@ -1,5 +1,5 @@
 import "./App.scss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TopMenubar from "./Components/Includes/TopMenubar";
 import Footer from "./Components/Includes/Footer";
 import Home from "./Components/Home";
@@ -31,90 +31,90 @@ function App() {
     <div>
       <Router>
         <TopMenubar />
-        <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/about-us" component={About}></Route>
-          <Route path="/contact-us" component={Contact}></Route>
+        <Routes>
+          <Route path="/" index element={<Home />}></Route>
+          <Route path="/about-us" element={<About />}></Route>
+          <Route path="/contact-us" element={<Contact />}></Route>
           <Route
             path="/digital-solutions"
-            exact component={DigitalSolutions}
+            exact element={<DigitalSolutions />}
           ></Route> <Route
         path="/website-solutions"
-        exact component={WebsiteSolutions}
+        exact element={<WebsiteSolutions />}
       ></Route>
           <Route
             path="/digital-solutions/creatives"
-            component={Creative}
+            element={<Creative />}
           ></Route>
           <Route
             path="/digital-solutions/logo-designs"
-            component={LogoDesigns}
+            element={<LogoDesigns />}
           ></Route>
         <Route
             path="/digital-solutions/web-page-design"
-            component={WebPageDesign}
+            element={<WebPageDesign />}
           ></Route>
           <Route
             path="/digital-solutions/landing-page-design"
-            component={LandingPageDesign}
+            element={<LandingPageDesign />}
           ></Route>
           <Route
             path="/digital-solutions/Brochure-design"
-            component={BrochureDesign}
+            element={<BrochureDesign />}
           ></Route>
            <Route
             path="/website-solutions/website-development"
-            component={WebDevelopment}
+            element={<WebDevelopment />}
           ></Route>
           <Route
             path="/website-solutions/landing-page-development"
-            component={LandingPageDevelopment}
+            element={<LandingPageDevelopment />}
           ></Route>
            <Route
             path="/website-solutions/e-commerce-website-development"
-            component={ECommerce}
+            element={<ECommerce />}
           ></Route>
           <Route
             path="/website-solutions/shopify"
-            component={Shopify}
+            element={<Shopify />}
           ></Route><Route
           path="/digital-marketing-solutions/digital-marketing"
-          exact component={DigitalMarketing}
+          exact element={ <DigitalMarketing /> }
         ></Route> 
           <Route
             path="/digital-marketing-solutions/search-engine-optimization"
-            component={SearchEngineOptimization}
+            element={<SearchEngineOptimization/>}
           ></Route>
            <Route
             path="/digital-marketing-solutions/search-engine-marketing"
-            component={SearchEngineMarketing}
+            element={<SearchEngineMarketing/>}
           ></Route>
            <Route
             path="/digital-marketing-solutions/social-media-marketing"
-            component={SocialMediaMarketting}
+            element={ <SocialMediaMarketting />}
           ></Route>
            <Route
             path="/digital-marketing-solutions/pay-per-click"
-            component={PayPerClick}
+            element={<PayPerClick />}
           ></Route>
            <Route
             path="/digital-marketing-solutions/content-marketing"
-            component={ContentMarketing}
+            element={<ContentMarketing />}
           ></Route>
           
            <Route
             path="/digital-marketing-solutions/email-marketing"
-            component={EmailMarketing}
+            element={<EmailMarketing />}
           ></Route>
           <Route
             path="/digital-marketing-solutions/whats-app-sms-marketing"
-            component={WhatsApp}
+            element={<WhatsApp />}
           ></Route>
            <Route
             path="/digital-marketing-solutions/app-promotions"
-            component={AppPromotions}
+            element={<AppPromotions />}
           ></Route>
-        </Switch>
+        </Routes>
         <Footer />
       </Router>
     </div>
