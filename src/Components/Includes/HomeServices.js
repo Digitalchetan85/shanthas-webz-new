@@ -2,7 +2,9 @@ import React from 'react'
 import { Card, Container, Button } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import cardimage from "../images/slider/Slide1.png";
+import cardimage from "../images/home/ui-ux.png";
+import cardimage1 from "../images/home/website.png";
+import cardimage2 from "../images/home/dm.png";
 import { Link } from "react-router-dom";
 
 const HomeServices = () => {
@@ -17,25 +19,25 @@ const HomeServices = () => {
         {
           id: 2,
           title: "Website Solutions",
-          image: cardimage,
+          image: cardimage1,
           desc: "Using cutting-edge technology, our team of skilled web developers and seasoned digital marketing professionals develop dynamic websites that engage their target audiences and promote them to expand their reach and increase sales.",
           link: "/website-solutions",
         },
         {
           id: 3,
-          title: "Digital Marketing",
-          image: cardimage,
+          title: "Digital Marketing Solutions",
+          image: cardimage2,
           desc: "We offer solutions to your biggest internet marketing issues and challenges in the digital age. It includes SEO, SEM, SMM, PPC, Content Marketing, E-Mail Marketing, Whatsapp/SMS Marketing, and  App Promotions.",
           link: "/digital-marketing-solutions",
         },
       ];
     return (
         <Container>
-          <h2 className="text-center pt-2 pb-2 text-primary">Our Services</h2>
+          <h2 className="text-center text-primary">Our Services</h2>
           <Row>
             {services.map((service) => (
               <Col md={4} key={service.id}>
-                <Card className="mt-3 mb-3">
+                <Card className="mt-3 mb-3" style={{ height: '28rem' }}>
                   <Card.Img
                     variant="top"
                     src={service.image}
@@ -43,7 +45,7 @@ const HomeServices = () => {
                     className="img-fluid"
                   />
                   <Card.Body>
-                    <Card.Title>{service.title}</Card.Title>
+                    <Card.Title className="text-center">{service.title}</Card.Title>
                     <Card.Text>
                       {service.desc}
                     </Card.Text>

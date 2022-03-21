@@ -1,8 +1,11 @@
 import React from 'react'
 import { Card, Container, Button } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
-import cardimage from "../images/slider/Slide1.png";
+import OwlCarousel from "react-owl-carousel2";
+import "react-owl-carousel2/src/owl.carousel.css";
+import "react-owl-carousel2/src/owl.theme.default.css";
+import cardimage from "../images/home/website-development.png";
+import cardimage1 from "../images/home/landing-page.png";
+import cardimage2 from "../images/home/e-commerce.png";
 import { Link } from "react-router-dom";
 
 const HomeWebsiteSolutions = () => {
@@ -17,32 +20,54 @@ const HomeWebsiteSolutions = () => {
         {
           id: 2,
           title: "Landing Page",
-          image: cardimage,
+          image: cardimage1,
           desc: "A well-designed landing page is a perfect gateway to your online presence.A landing page is a single web page that a visitor lands on after clicking through from other digital platforms and is urged to perform an action, such as joining your list or purchasing your items.",
           link: "/website-solutions/landing-page-development",
         },
         {
           id: 3,
           title: "E-Commerce Website Development",
-          image: cardimage,
+          image: cardimage2,
           desc: "Creating an easy-to-use purchasing experience on a website is the ultimate objective of every business.We offer cutting-edge e-commerce website solutions for long-lasting, reliable, and scalable online shops.",
           link: "/website-solutions/e-commerce-website-development",
         },
-        {
-            id: 4,
-            title: "Shopify",
-            image: cardimage,
-            desc: "Setting up an online shop on Shopify might be a daunting task, but with our help, you'll be able to do it in a short amount of time. No matter how many items you have, the CMS organises them and maximises conversions.",
-            link: "/website-solutions/shopify",
-          },
+        // {
+        //     id: 4,
+        //     title: "Shopify",
+        //     image: cardimage,
+        //     desc: "Setting up an online shop on Shopify might be a daunting task, but with our help, you'll be able to do it in a short amount of time. No matter how many items you have, the CMS organises them and maximises conversions.",
+        //     link: "/website-solutions/shopify",
+        //   },
       ];
+
+      const options = {
+        rewind: true,
+        dots: true,
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+            loop: false,
+          },
+        },
+      };
+
     return (
         <Container>
           <h2 className="text-center pt-2 pb-2 text-primary">Website Solutions</h2>
-          <Row className="justify-content-center">
+          <OwlCarousel options={options}>
             {services.map((service) => (
-              <Col md={4} key={service.id}>
-                <Card className="mt-3 mb-3 shadow-sm">
+              <div key={service.id}>
+                <Card className="m-3 shadow-sm" style={{ height: '30rem' }}>
                   <Card.Img
                     variant="top"
                     src={service.image}
@@ -58,9 +83,9 @@ const HomeWebsiteSolutions = () => {
                     <a className="float-end btn btn-outline-primary" href="/contact-us">Contact</a>
                   </Card.Body>
                 </Card>
-              </Col>
+              </div>
             ))}
-          </Row>
+          </OwlCarousel>
         </Container>
     )
 }
