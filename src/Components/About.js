@@ -103,9 +103,7 @@ const About = () => {
                 <div className="text-center text-primary">
                   <i className="fas fa-bullseye fs-1 pb-2"></i>
                 </div>
-                <p className="pt-2 text-center">
-                Our mission is to deliver a wide range of digital solutions to clients of all sizes and from all industry sectors, ranging from small businesses to large multinational organizations. All of our customized online solutions are made with one goal in mind: to help our clients become more visible online while also making sure their businesses grow to the fullest extent possible.
-                </p>
+                <p className="pt-2 text-center">Our mission is to deliver a wide range of digital solutions to clients of all sizes and from all industry sectors, ranging from small businesses to large multinational organizations. All of our customized online solutions are made with one goal in mind: to help our clients become more visible online while also making sure their businesses grow to the fullest extent possible.</p>
               </div>
             </Col>
             <Col md={6}>
