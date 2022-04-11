@@ -69,16 +69,17 @@ const Footer = () => {
                   <a href="/website-solutions/e-commerce">E-Commerce Development</a>
                 </li>
                 <li>
-                  <a href="/website-solutions/shopify">Shopify</a>
+                <a href="/website-solutions/shopify">Shopify</a>
                 </li>
               </ul>
             </div>
           </Col>
           <Col md={3}>
             <div className="">
-            <h4 className="text-primary pt-2 pb-2"><a href="digital-marketing-solutions">Digital Marketing Solutions </a>
+            <h4 className="text-primary pt-2 pb-2"><a href="digital-marketing-solutions">Other Services </a>
             </h4>
-              <ul>
+            <a href="/attestation">Attestation</a>
+              {/* <ul>
                 <li>
                   <a href="digital-marketing-solutions/search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -103,7 +104,7 @@ const Footer = () => {
                 <li>
                   <a href="digital-marketing-solutions/app-promotions">App Promotions</a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </Col>
         </Row>

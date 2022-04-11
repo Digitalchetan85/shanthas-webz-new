@@ -23,7 +23,7 @@ const HomeDigitalMarketingSolutions = () => {
       id: 2,
       title: "Search Engine Marketing",
       image: cardimage2,
-      desc: "",
+      desc: "Search engine advertising is one of the most cost-efficient ways to connect your brand with high-converting customers and increase your revenue. SEM advertising allows you to take advantage of consumers’ online behavior and position your ads precisely when they are looking for your brand offerings and are ready to purchase.",
       link: "/digital-marketing-solutions/search-engine-marketing",
     },
     {

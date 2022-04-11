@@ -25,6 +25,7 @@ import WhatsApp from './Components/DigitalMarketingSolutions/WhatsApp';
 import DigitalSolutions from './Components/DigitalSolutions/DigitalSolutions';
 import DigitalMarketing from './Components/DigitalMarketingSolutions/DigitalMarketing';
 import WebsiteSolutions from './Components/WebsiteSolutions/WebsiteSolutions';
+import Attestation from "./Components/Includes/Attestation";
 
 function App() {
   return (
@@ -113,6 +114,10 @@ function App() {
            <Route
             path="/digital-marketing-solutions/app-promotions"
             element={<AppPromotions />}
+          ></Route>
+          <Route
+            path="/attestation"
+            element={<Attestation />}
           ></Route>
         </Routes>
         <Footer />
