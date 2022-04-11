@@ -1,11 +1,11 @@
 import React from 'react'
-import { Card, Container, Button } from 'react-bootstrap';
+import { Card, Container, Button, Image } from 'react-bootstrap';
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 import cardimage from "../images/home/website-development.png";
 import cardimage1 from "../images/home/landing-page.png";
-import cardimage2 from "../images/home/e-commerce.png";
+import cardimage2 from "../images/home/e-commerce-website.png";
 import { Link } from "react-router-dom";
 
 const HomeWebsiteSolutions = () => {
@@ -67,16 +67,13 @@ const HomeWebsiteSolutions = () => {
           <OwlCarousel options={options}>
             {services.map((service) => (
               <div key={service.id}>
-                <Card className="m-3 shadow-sm" style={{ height: '30rem' }}>
-                  <Card.Img
-                    variant="top"
-                    src={service.image}
-                    alt=""
-                    className="img-fluid"
-                  />
+                <Card className="m-3 shadow-sm">
+                  <div className="text-center">
+                    <Image src={service.image} alt={service.title} className="img-fluid" />
+                  </div>
                   <Card.Body>
                     <Card.Title>{service.title}</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{ height: '10rem' }}>
                       {service.desc}
                     </Card.Text>
                     <Button variant="primary" as={Link} to={service.link}>Readmore</Button>

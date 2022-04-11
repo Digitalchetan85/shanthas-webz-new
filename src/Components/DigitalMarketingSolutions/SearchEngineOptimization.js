@@ -1,19 +1,26 @@
-import React from 'react'
-import TopHeaderPage from './../Includes/TopHeaderPage';
-import { Container } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import React from "react";
+import TopHeaderPage from "./../Includes/TopHeaderPage";
+import { Card, Container, Image } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import tempImage from "./../images/slider/new/image-2.jpg";
 
 const SearchEngineOptimization = () => {
-    return (
-        <main>
-            <section className="bg-primary pt-3 pb-3 pt-md-5 pb-md-5" id="page-top-header">
-            <TopHeaderPage name="Search Engine Optimization" link="/digital-marketing-solutions"  linkingPageName="Digital Marketing Solutions"></TopHeaderPage>
-
-            </section>
-            <section className = "pt-3 pb-3 pt-md-5 pb-md-5">
-          <Container>
-            <Row>
+  return (
+    <main>
+      <section
+        className="bg-primary pt-3 pb-3 pt-md-5 pb-md-5"
+        id="page-top-header"
+      >
+        <TopHeaderPage
+          name="Search Engine Optimization"
+          link="/digital-marketing-solutions"
+          linkingPageName="Digital Marketing Solutions"
+        ></TopHeaderPage>
+      </section>
+      <section className="pt-3 pb-3 pt-md-5 pb-md-5">
+        <Container>
+          <Row>
             <Col md={12}>
               <p>
                 The purpose of search engine optimization (SEO) is to elevate a
@@ -51,8 +58,15 @@ const SearchEngineOptimization = () => {
                 internet reviews virtually every day before making a final
                 decision on which things to purchase.
               </p>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="py-3 py-md-5">
+        <Container>
+          <Row>
+            <Col md={8}>
               <h3 className="text-primary">
-                {" "}
                 What can be done to boost a website's SEO?
               </h3>
               <p>
@@ -75,28 +89,125 @@ const SearchEngineOptimization = () => {
                 <li>Including relevant backlinks from trustworthy sources.</li>
                 <li>Observing and evaluating the outcomes.</li>
               </ul>
-              <p>Rank your website higher in Google with the help of ShanthasWebz. We will perform an SEO check and improve your visibility.</p>
-              <p>There are three main pillars of SEO that you should be familiar with and use on a daily basis:</p>
-              <h6>Technical Optimization:</h6>  
-              <p>Technical optimization is the process of performing tasks on your site that are intended to boost SEO but are not directly linked to content, such as site speed optimization. It is common for this to take place in the background.</p>
-              <h6>On-Page Optimization:</h6>
-              <p>On-Page Optimization is the process of ensuring that the information on your website is relevant and offers a fantastic user experience. A content management system (CMS) may be used to help you target the correct keywords in your content. WordPress, Wix, Drupal, Joomla, Magento, Shopify, and Expression Engine are some of the most popular content management systems on the market today.</p>
-              <h6>Off-Page Optimization:</h6>
-              <p>By engaging in actions outside of your site itself, off-page optimization works to improve your site's position in search engine results. Backlinks are a major contributor to off-page optimization since they aid in the development of the site's authority.</p>
-              <h3 className="text-primary pt-2 pb-2">Setting goals for SEO for different kinds of Businesses</h3>
-              <p>Your goals will be different based on whether your company is transactional or informative.</p>
-              <p>You'll want to define your targets around tracking sales and lead conversions if your firm is transactional and includes an e-commerce component to them. If you're running a non-eCommerce business website, on the other hand, you'll want to concentrate on lead generation.</p>
-              <p>If your company is in the information business, you are more likely to create goals that are focused on increasing brand awareness or increasing website traffic.</p>
-              <h2>Conclusion</h2>
-              <p>All things considered, SEO is the cornerstone of a well-rounded digital marketing strategy. Understanding what your website visitors desire allows you to use that knowledge in your paid and organic marketing strategies, as well as in the design and development of your website and social media assets.</p>
-              <p>Do you require SEO services but have no idea where to begin? Engage the services of ShanthasWebz to get professional help. Please don't hesitate to get in touch with us if you have any questions or concerns.</p>
             </Col>
-            </Row>
-          </Container>
-
+            <Col md={4}>
+              <div className="">
+                <Image src={tempImage} alt="" className="img-fluid" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </section>
-        </main>
-    )
-}
 
-export default SearchEngineOptimization
+      <section className="py-3 py-md-5">
+        <Container>
+          <Row className="g-3 justify-content-center">
+            <Col md={12}>
+              <div className="">
+                <p>
+                  Rank your website higher in Google with the help of
+                  ShanthasWebz. We will perform an SEO check and improve your
+                  visibility.
+                </p>
+                <p>
+                  There are three main pillars of SEO that you should be
+                  familiar with and use on a daily basis:
+                </p>
+              </div>
+            </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <Card.Title>Technical Optimization</Card.Title>
+                  <Card.Text>
+                    Technical optimization is the process of performing tasks on
+                    your site that are intended to boost SEO but are not
+                    directly linked to content, such as site speed optimization.
+                    It is common for this to take place in the background.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <Card.Title>On-Page Optimization</Card.Title>
+                  <Card.Text>
+                    On-Page Optimization is the process of ensuring that the
+                    information on your website is relevant and offers a
+                    fantastic user experience. A content management system (CMS)
+                    may be used to help you target the correct keywords in your
+                    content. WordPress, Wix, Drupal, Joomla, Magento, Shopify,
+                    and Expression Engine are some of the most popular content
+                    management systems on the market today.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card>
+                <Card.Body>
+                  <Card.Title>Off-Page Optimization</Card.Title>
+                  <Card.Text>
+                    By engaging in actions outside of your site itself, off-page
+                    optimization works to improve your site's position in search
+                    engine results. Backlinks are a major contributor to
+                    off-page optimization since they aid in the development of
+                    the site's authority.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <section className="py-3 py-md-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <div className="">
+                <h3 className="text-primary pt-2 pb-2">
+                  Setting goals for SEO for different kinds of Businesses
+                </h3>
+                <p>
+                  Your goals will be different based on whether your company is
+                  transactional or informative.
+                </p>
+                <p>
+                  You'll want to define your targets around tracking sales and
+                  lead conversions if your firm is transactional and includes an
+                  e-commerce component to them. If you're running a
+                  non-eCommerce business website, on the other hand, you'll want
+                  to concentrate on lead generation.
+                </p>
+                <p>
+                  If your company is in the information business, you are more
+                  likely to create goals that are focused on increasing brand
+                  awareness or increasing website traffic.
+                </p>
+                <h2>Conclusion</h2>
+                <p>
+                  All things considered, SEO is the cornerstone of a
+                  well-rounded digital marketing strategy. Understanding what
+                  your website visitors desire allows you to use that knowledge
+                  in your paid and organic marketing strategies, as well as in
+                  the design and development of your website and social media
+                  assets.
+                </p>
+                <p>
+                  Do you require SEO services but have no idea where to begin?
+                  Engage the services of ShanthasWebz to get professional help.
+                  Please don't hesitate to get in touch with us if you have any
+                  questions or concerns.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </main>
+  );
+};
+
+export default SearchEngineOptimization;

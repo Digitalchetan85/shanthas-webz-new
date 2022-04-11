@@ -7,6 +7,7 @@ import HomeDigitalMarketingSolutions from "./Includes/HomeDigitalMarketingSoluti
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Slide1 from "./images/slider/Slide1.png";
+import OurProcess from "./Includes/OurProcess";
 
 const Home = () => {
   return (
@@ -63,6 +64,12 @@ const Home = () => {
       >
         <HomeDigitalMarketingSolutions />
       </section>
+      {/* <section
+        id="digital-marketing-solutions"
+        className="pt-3 pb-3 pt-md-5 pb-md-5 bg-light"
+      >
+        <OurProcess />
+      </section> */}
     </main>
   );
 };
