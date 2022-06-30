@@ -9,7 +9,7 @@ const WebPageDesign = () => {
         id="page-top-header"
       >
         <TopHeaderPage
-          name="Web Page Designs"
+          name="Web Page Designs" 
           link="/digital-solutions"
           linkingPageName="Digital Solutions"
         ></TopHeaderPage>

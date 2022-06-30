@@ -134,16 +134,16 @@ const ContentMarketing = () => {
                 we help you get your content in front of the people that matter
                 most to your audience.
               </p>
-              <h5>Reports on content</h5>
-              <p>
+              <h5 className="py-1">Reports on content</h5>
+              <p className="py-2">
                 Once a month, we provide you with a content report that is
                 simple to understand and that illustrates the performance (and
                 returns) of your content on your end result.
               </p>
-              <h4>Creating high-quality content requires time and effort.</h4>
-              <p>It's a game of patience and consistency, and the sooner we get started, the sooner you'll begin to notice the benefits of our content marketing services.</p>
-              <h2>Let us help you develop the content strategy for your goals now</h2>
-              <h3 className="text-primary">By contacting our consultation team, you can find out how Shanthaswebz can help you with your content marketing difficulties.</h3>
+              <h5 className="py-1">Creating high-quality content requires time and effort.</h5>
+              <p className="py-2">It's a game of patience and consistency, and the sooner we get started, the sooner you'll begin to notice the benefits of our content marketing services.</p>
+              <h2 className="py-1">Let us help you develop the content strategy for your goals now</h2>
+              <p className="text-color1">By contacting our consultation team, you can find out how Shanthaswebz can help you with your content marketing difficulties.</p>
             </Col>
           </Row>
         </Container>

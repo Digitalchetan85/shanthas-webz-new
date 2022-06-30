@@ -35,10 +35,10 @@ const About = () => {
       <section id="about-1" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
           <Row>
-            <Col md={12}>
+            <Col md={4}>
               <h2 className="text-primary">About Shanthas Webz</h2>
 
-              <p>
+              <p className="">
                 Shanthaswebz's core emphasis is digital marketing, which means
                 we don't waste time or resources on anything else when it comes
                 to designing and implementing a digital marketing strategy for
@@ -58,31 +58,31 @@ const About = () => {
                 (PPC) advertising, and social media to get qualified traffic to
                 a website, or to get people to come back and make sales.
               </p>
-              <p>
-                A brand's in-person experiences may be improved with the use of
-                technology. On a lot of different platforms, we can use a lot of
-                different things to make a brand better and more memorable. This
-                is because technology is easy and cheap to use.
-              </p>
-              <p>
-                It is difficult to imagine living without the use of a mobile
-                smartphone. It's always with us, so we can use it to form a
-                relationship wherever we are. In order to maintain a high level
-                of engagement, we make experiences available at all hours of the
-                day and night.
-              </p>
-              <p>
-                By blending great ideas with technology, we ensure that you have
-                all the ingredients to make the right noises in the market. We
-                create differentiated go-to-market processes for your
-                organization. We create a systematic approach—both consistent
-                and efficient—to captivate your audience.{" "}
-              </p>
-              <p>
-                If you would like to learn more about our services, the sectors
-                in which we have worked, and our outcomes, we would be happy to
-                arrange a free consultation with you.
-              </p>
+                <p>
+                  A brand's in-person experiences may be improved with the use of
+                  technology. On a lot of different platforms, we can use a lot of
+                  different things to make a brand better and more memorable. This
+                  is because technology is easy and cheap to use.
+                </p>
+                <p>
+                  It is difficult to imagine living without the use of a mobile
+                  smartphone. It's always with us, so we can use it to form a
+                  relationship wherever we are. In order to maintain a high level
+                  of engagement, we make experiences available at all hours of the
+                  day and night.
+                </p>
+                <p>
+                  By blending great ideas with technology, we ensure that you have
+                  all the ingredients to make the right noises in the market. We
+                  create differentiated go-to-market processes for your
+                  organization. We create a systematic approach—both consistent
+                  and efficient—to captivate your audience.{" "}
+                </p>
+                <p>
+                  If you would like to learn more about our services, the sectors
+                  in which we have worked, and our outcomes, we would be happy to
+                  arrange a free consultation with you.
+                </p>
             </Col>
 
             {/* <Col md={4} className="align-self-center">
